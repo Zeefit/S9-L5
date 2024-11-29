@@ -16,7 +16,7 @@ Numerosi pacchetti SYN senza completamento di handshake:
 
 L’indirizzo 192.168.200.100 ha inviato molteplici richieste SYN verso 192.168.200.150, ma queste non sono state seguite da handshake completi.
 Questo comportamento è tipico di:
-Un SYN flood attack (DoS).
+Un SYN flood attack (DoS) ossia che sovraccarica di risorse, rendendole inaccessibili.
 Un port scanning, volto a individuare porte aperte sul target.
 
 Un pacchetto BROWSER proveniente da 192.168.200.150 verso l’indirizzo di broadcast 192.168.200.255.
